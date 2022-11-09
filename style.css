@@ -1,1 +1,44 @@
+html {
+    font-family: 'Amita', cursive;
+    background-color: #D2C8AF;
+    color: #3C2726;
+}
 
+header {
+    display: flex;
+    justify-content: center;
+  }
+
+body {
+    margin: auto;
+}
+
+#content-area {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+#button-area {
+    display: flex;
+    justify-content: center;
+}
+
+#button-area .button{
+    background-color: #B48B5D;
+    border: none;
+    color: #3C2726;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+
+.hide {
+    display:none;
+  }
+
+.show {
+    display:block;
+  }

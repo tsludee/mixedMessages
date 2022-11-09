@@ -24,3 +24,6 @@ I want it to have the following items:
 
 ### Guidance from CA
 To truly be random, CA suggests using three possible strings. Maybe there can be an element that could follow and tell you something about your day? Maybe a third and final one that could say something about your outfit?
+
+### Where I'm stuck...
+Now I am trying to add a button functionality, but I don't know where/how to do that. I have a button inserted and found something from StackOverflow, but it has only gotten me so far.

@@ -56,6 +56,10 @@ dayToHave = () => {
     };
 };
 
+function onButtonClick(){
+    document.getElementById('textInput').className="show";
+  }
+
 insultGen();
 flatteryGen();
 dayToHave();
