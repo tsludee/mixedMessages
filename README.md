@@ -27,3 +27,4 @@ To truly be random, CA suggests using three possible strings. Maybe there can be
 
 ### Where I'm stuck...
 Now I am trying to add a button functionality, but I don't know where/how to do that. I have a button inserted and found something from StackOverflow, but it has only gotten me so far.
+UPDATE - I have temporarily removed the button functionality from the code to keep me sane... This next section on CA is leading into some of these capabilities.
