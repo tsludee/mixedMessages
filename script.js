@@ -12,7 +12,7 @@ const insultNoun = ['laughingstock', 'twit', 'ruffian', 'pirate', 'buffoon', 'bo
             'simpleton', 'villain', 'miscreant'];
 
 //should this insult be yelled in all caps?
-insultGen = () => {
+function insultGen() {
     let x = Math.floor(Math.random() * (insultAdj1.length + 1));
     let y = Math.floor(Math.random() * (insultAdj2.length + 1));
     let z = Math.floor(Math.random() * (insultNoun.length + 1));
@@ -32,11 +32,11 @@ const flatteryNoun = ['god', 'goddess', 'saint', 'star', 'knight', 'sprite', 'li
             'force', 'nymph', 'warrior', 'muse', 'apple-john', 'melody', 'inspiration', 'wit', 'true-penny', 'valentine', 'love'];
 
 //should this piece of flattery be properly punctuated?
-flatteryGen = () => {
+function flatteryGen() {
     let x = Math.floor(Math.random() * (flatteryAdj1.length + 1));
     let y = Math.floor(Math.random() * (flatteryAdj2.length + 1));
     let z = Math.floor(Math.random() * (flatteryNoun.length + 1));
-    console.log(`Sorry, was that too mean? I'm just kidding! I trully dost believe thou art a ${flatteryAdj1[x]}, ${flatteryAdj2[y]} ${flatteryNoun[z]}!`);
+    console.log(`Sorry, was that too mean? I am only kidding! I trully dost believe thou art a ${flatteryAdj1[x]}, ${flatteryAdj2[y]} ${flatteryNoun[z]}!`);
 };
 
 dayType = ['happy', 'peaceful', 'wonderful', 'inspirational', 'bright', 'exciting', 'joyful', 'blissful', 'delightful', 'cheerful', 'thrilled',
@@ -46,7 +46,7 @@ dayType = ['happy', 'peaceful', 'wonderful', 'inspirational', 'bright', 'excitin
         'super', 'momentous', 'magnificent', 'incredible'];
 
 //I need to add functionality to determine if the article should be a or an based on the random selection
-dayToHave = () => {
+function dayToHave() {
     let x = Math.floor(Math.random() * (dayType.length + 1));
     let y = dayType[x].charAt(0);
     if (y === 'a' || y === 'e' || y === 'i' || y === 'o' || y === 'u' || y === 'y') {
