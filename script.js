@@ -16,7 +16,7 @@ function insultGen() {
     let x = Math.floor(Math.random() * (insultAdj1.length + 1));
     let y = Math.floor(Math.random() * (insultAdj2.length + 1));
     let z = Math.floor(Math.random() * (insultNoun.length + 1));
-    console.log(`I don't have the words to describe you! Mr. Shakespeare will have to help me. THOU ART A ${insultAdj1[x].toUpperCase()}, ${insultAdj2[y].toUpperCase()} ${insultNoun[z].toUpperCase()}!`);
+    return 'I do not have the words to describe you! Mr. Shakespeare will have to help me. THOU ART A ' + insultAdj1[x].toUpperCase() + ', ' + insultAdj2[y].toUpperCase() + ' '+ insultNoun[z].toUpperCase() +'!';
 };
 
 const flatteryAdj1 = ['sweet', 'divine', 'lovely', 'inspiring', 'completely', 'refined', 'angelic', 'wise', 'soothing', 'wholesome', 'magical',
@@ -36,7 +36,7 @@ function flatteryGen() {
     let x = Math.floor(Math.random() * (flatteryAdj1.length + 1));
     let y = Math.floor(Math.random() * (flatteryAdj2.length + 1));
     let z = Math.floor(Math.random() * (flatteryNoun.length + 1));
-    console.log(`Sorry, was that too mean? I am only kidding! I trully dost believe thou art a ${flatteryAdj1[x]}, ${flatteryAdj2[y]} ${flatteryNoun[z]}!`);
+    return 'Sorry, was that too mean? I am only kidding! I trully dost believe thou art a ' + flatteryAdj1[x] + ', ' + flatteryAdj2[y] + ' ' + flatteryNoun[z] +'!';
 };
 
 dayType = ['happy', 'peaceful', 'wonderful', 'inspirational', 'bright', 'exciting', 'joyful', 'blissful', 'delightful', 'cheerful', 'thrilled',
@@ -50,20 +50,16 @@ function dayToHave() {
     let x = Math.floor(Math.random() * (dayType.length + 1));
     let y = dayType[x].charAt(0);
     if (y === 'a' || y === 'e' || y === 'i' || y === 'o' || y === 'u' || y === 'y') {
-        console.log (`I hope you have an ${dayType[x]} day!`)
+        return 'I hope you have an ' + dayType[x] + ' day!';
     } else {
-        console.log(`I hope you have a ${dayType[x]} day!`)
+        return 'I hope you have a ' + dayType[x] + ' day!';
     };
 };
 
-function generator() {
-    insultGen();
-    flatteryGen();
-    dayToHave();
-}
-
-//here is where I want to add in the button functionality.
+//here is where I want to add in the button functionality but it should print the result of the generator.
 function eventAssignment() {
-    //document.getElementById('function-area').innerHTML = 'this is where the functions should print';
-    document.getElementById('function-area').innerHTML = generator();
+    document.getElementById('insult').innerHTML = insultGen();
+    document.getElementById('flattery').innerHTML = flatteryGen();
+    document.getElementById('day').innerHTML = dayToHave();
+    reset.onclick;
 }
