@@ -21,10 +21,10 @@ I want it to have the following items:
 + A button to refresh the insult
 + Three random elements (I think it goes "Thou art a (adjective) (adjective) (noun)")
 + An option to choose a compliment as well (same formula as the insult... but nice).
++ Some of that good good HTML and CSS to make it look sharp!
 
 ### Guidance from CA
 To truly be random, CA suggests using three possible strings. Maybe there can be an element that could follow and tell you something about your day? Maybe a third and final one that could say something about your outfit?
 
 ### Where I'm stuck...
-Now I am trying to add a button functionality, but I don't know where/how to do that. I have a button inserted and found something from StackOverflow, but it has only gotten me so far.
-UPDATE - I have temporarily removed the button functionality from the code to keep me sane... This next section on CA is leading into some of these capabilities.
+Now I am trying to add a button functionality, but I don't know where/how to do that. I have a button inserted and I have a lot of the JavaScript ready to go, but it isn't quite workign the way I want it to. I want to click the button and have the insult generator run and print the result to the text box.

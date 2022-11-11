@@ -59,3 +59,10 @@ function dayToHave() {
 insultGen();
 flatteryGen();
 dayToHave();
+
+//here is where I want to add in the button functionality.
+//my button should create a <p> to log the results
+let functionArea = document.getElementById('function-area');
+const eventAssignment = function() {
+    functionArea.innerHtml = `${ins} ${flat} ${day}`;
+}
