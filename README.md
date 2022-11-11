@@ -1,7 +1,7 @@
 # mixedMessages
 
 ## Where I'm stuck...
-Now I am trying to add a button functionality, but I don't know where/how to do that. I have a button inserted and I have a lot of the JavaScript ready to go, but it isn't quite workign the way I want it to. I want to click the button and have the insult generator run and print the result to the text box.
+I've solved the majority of my problems, I just need to finish styling it to look the way I want it to and then I will be happy!
 
 ## Codecademy portfolio project
 
@@ -24,5 +24,5 @@ Because I taught English for so long, I think that I have the perfect plan: I am
 I want it to have the following items:
 + A button to refresh the insult
 + Three random elements (I think it goes "Thou art a (adjective) (adjective) (noun)")
-+ An option to choose a compliment as well (same formula as the insult... but nice).
++ Apologize for being mean and offer a compliment and a well wish for the day ahead!
 + Some of that good good HTML and CSS to make it look sharp!
