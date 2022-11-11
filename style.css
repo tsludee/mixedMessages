@@ -35,3 +35,7 @@ body {
     display: inline-block;
     font-size: 1.25rem;
   }
+
+button:hover {
+    cursor: pointer;
+}

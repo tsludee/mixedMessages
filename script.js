@@ -64,5 +64,5 @@ dayToHave();
 //my button should create a <p> to log the results
 let functionArea = document.getElementById('function-area');
 const eventAssignment = function() {
-    functionArea.innerHtml = `${ins} ${flat} ${day}`;
+    functionArea.innerHTML = 'this is where the functions should print';
 }
