@@ -56,13 +56,14 @@ function dayToHave() {
     };
 };
 
-insultGen();
-flatteryGen();
-dayToHave();
+function generator() {
+    insultGen();
+    flatteryGen();
+    dayToHave();
+}
 
 //here is where I want to add in the button functionality.
-//my button should create a <p> to log the results
-let functionArea = document.getElementById('function-area');
-const eventAssignment = function() {
-    functionArea.innerHTML = 'this is where the functions should print';
+function eventAssignment() {
+    //document.getElementById('function-area').innerHTML = 'this is where the functions should print';
+    document.getElementById('function-area').innerHTML = generator();
 }
