@@ -1,7 +1,7 @@
 # mixedMessages
 
-## Where I'm stuck...
-I've solved the majority of my problems, I just need to finish styling it to look the way I want it to and then I will be happy!
+## Where I Am:
+I think that I'm pretty happy with how this project turned out. I think that all that is left is some fine tuning for style (I really want to add a bit of space between the button and the display box for the insult... but I think that a bug occurs for the order of events. Maybe I could switch to a mousedown event to have the box appear and a mouseup event to have the insult populate?).
 
 ## Codecademy portfolio project
 

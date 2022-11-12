@@ -16,11 +16,17 @@ body {
 
 #function-area {
     border: 2px solid #3C2726;
-    display: flex;
+    display: none;
     justify-content: center;
     font-size: 1.25rem;
     width: min(100% - 2rem, 1000px);
     margin-inline: auto;
+}
+
+#function-area ul li {
+    display: inline;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #button-area {
@@ -39,6 +45,11 @@ body {
     font-size: 1.25rem;
   }
 
-button:hover {
+#button-area button:hover {
     cursor: pointer;
+}
+
+#button-area button:active {
+    color: #B48B5D;
+    background-color: #3C2726;
 }

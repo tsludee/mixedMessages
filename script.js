@@ -58,6 +58,7 @@ function dayToHave() {
 
 //here is where I want to add in the button functionality but it should print the result of the generator.
 function eventAssignment() {
+    document.getElementById('function-area').style.display = 'flex';
     document.getElementById('insult').innerHTML = insultGen();
     document.getElementById('flattery').innerHTML = flatteryGen();
     document.getElementById('day').innerHTML = dayToHave();
