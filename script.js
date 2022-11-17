@@ -16,7 +16,7 @@ function insultGen() {
     let x = Math.floor(Math.random() * (insultAdj1.length + 1));
     let y = Math.floor(Math.random() * (insultAdj2.length + 1));
     let z = Math.floor(Math.random() * (insultNoun.length + 1));
-    return 'I do not have the words to describe you! Mr. Shakespeare will have to help me. THOU ART A ' + insultAdj1[x].toUpperCase() + ', ' + insultAdj2[y].toUpperCase() + ' '+ insultNoun[z].toUpperCase() +'!';
+    return 'THOU ART A ' + insultAdj1[x].toUpperCase() + ', ' + insultAdj2[y].toUpperCase() + ' '+ insultNoun[z].toUpperCase() +'!';
 };
 
 const flatteryAdj1 = ['sweet', 'divine', 'lovely', 'inspiring', 'completely', 'refined', 'angelic', 'wise', 'soothing', 'wholesome', 'magical',
